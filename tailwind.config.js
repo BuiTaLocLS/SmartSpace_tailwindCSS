@@ -1,0 +1,26 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  mode: "jit",
+  content: ["**/*.html"],
+  darkMode: "class", // or 'media' or 'class'
+  theme: {
+    extend: {
+      fontFamily: {
+        dm: ['"DM Sans"'],
+      },
+      colors: {
+        orangeff: "#FF9900",
+        orangef8: "#F85A47",
+        gray31: "#31353B",
+        grayDA: "#DADADA",
+      },
+      // gridTemplateColumns: {
+      //   "grid-work": "repeat(auto-fit, minmax(300px, 1fr))",
+      // },
+    },
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+};
